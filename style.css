@@ -1,0 +1,118 @@
+/* *{
+    padding: 0;
+    margin: 0;
+} */
+header{
+    background-color: rgb(124, 119, 124);
+    align-items: center;
+    text-align: center;
+    height: 50px;
+    color: #ffffff;
+    margin: 6px;
+}
+
+nav {
+    background-color: #3a3a3b;
+    color: #fff;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: -8px;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  nav ul li {
+    float: left;
+  }
+  nav ul li a {
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  nav ul li:hover {
+    background-color: #111;
+  }
+  
+  nav ul li:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: #000;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: #f1f1f1;
+  }
+  .Home{
+    border: 4px solid steelblue;
+    
+  }
+  img {
+    width: 100%;
+}
+
+  .row{
+    display: flex;
+    justify-content: space-around;
+
+    
+  }
+  .footer{
+    background-color: #000;
+    color: white ;
+    text-align: center;
+    height: 50px;
+    font-size: xx-large;
+    margin: 264px;
+    width: 100%;
+    margin-left: inherit;
+  }
+  .Images{
+    width: auto;
+    height: auto;
+  }
+  Button {
+    padding: 10px;
+    background-color: rgb(250, 234, 230);
+    border: 2px solid rgb(0, 255, 76);
+    cursor: pointer;
+    width: 150px;
+
+
+  }
+  
+  .Images:hover{
+    width: 200px;
+    height: 200px;
+} 
+.Images1{
+    width: 100px;
+    height: 100px;
+}
+  .Images1:hover{
+    width: 150px;
+    height: 150px;
+  }
+
+
+  
+  

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>from</title>
+    <style>
+        .main {
+            display: flex;
+        }
+
+        .from {
+            width: 50%;
+        }
+
+        .img {
+            width: 50%;
+        }
+        .button{
+        width:100px;
+        height: 40px;
+        padding: 5px;
+        float: right;
+        vertical-align: middle;
+        font-size: 25px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        border-radius: 10px;
+        background-color: rgb(67, 185, 67);
+        color: white;
+        margin: 15px;
+    }
+    input{
+        height: 10px;
+        width: 15%;
+        padding-left: 11px;
+        border-radius: 4px;
+        margin: 13px;
+    }
+    label{
+        margin: 30px;
+    }
+   .add{
+    margin: 45px;
+   }
+   #District{
+    margin: 5px;
+   }
+   #ch{
+    margin: 5px;
+   }
+   #yes{
+    margin: 5px;
+   }
+   img{
+    position: fixed;
+   }
+   
+
+
+    
+    </style>
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="from">
+            <h1> 1.Your Contact Details</h1>
+            <form action="contact">
+                <label for="F_name" id="F_name">Full Name:</label>
+                <label for="L_name" id="lname">Patient Id If exists: </label><br>
+                <input type="text" name="F_name" placeholder="Enter yours name" required>
+                <input type="number" name="id" placeholder="Enter yours id" required><br>
+                <label for="F_name">Contact Number:</label>
+                <label for="L_name" id="lname">email ID </label><br>
+                <input type="number" name="phone" placeholder="Enter yours phone number" required>
+                <input type="email" name="email" placeholder="Enter yours email" required><br>
+                <h1>2.Address</h1>
+                <label class="add" for="F_name">H.NO:</label>
+                <label class="add" for="L_name" id="lname">Street: </label><br>
+                <input class="add1" type="number" name="F_name" placeholder="H.no" required>
+                <input class="add1" type="text" name="L_name" placeholder="Street" required><br>
+                <label  class="add" for="F_name">Area</label>  <br>
+                <input class="add1" type="text" name="L_name" placeholder="Area" required><br>
+                <h1>District</h1>
+                <input  type="checkbox" id="District" name="District" value="District">
+                <label for="District"> Bengaluru</label><br>
+                <input type="checkbox" id="District" name="District" value="District">
+                <label for="District"> Banglore</label><br>
+                <input type="checkbox" id="District" name="District" value="District">
+                <label for="District"> Kolar</label><br>
+                <input type="checkbox" id="District" name="District" value="District">
+                <label for="District"> Mysore</label><br>
+                <H1>Choose the Test Type.</H1>
+                <input type="radio" id="ch" name="Test" value="cbc">
+                <label for="cbc">CBC</label><br>
+                <input type="radio" id="ch" name="Test" value="urine">
+                <label for="urine">Complete Urine</label><br>
+                <input type="radio" id="ch" name="Test" value="lip">
+                <label for="Lipid Profile">Lipid Profile</label><br>
+                <input type="radio" id="ch" name="Test" value="tsh">
+                <label for="TSH">Thyroid stimulating Hormane(TSH)</label><br>
+                <input type="radio" id="ch" name="Test" value="Gulose">
+                <label for="Gulose">Gulose Test</label><br>
+                <h1>Do you want a hard copy of the report also?</h1>
+                <input type="radio" id="yes" name="do you" value="yes">
+                <label for="Yes">Yes</label> <br>
+                <input type="radio" id="yes" name="do you" value="No">
+                <label for="No">No</label><br>
+                <h1>Select your comfortable date and time</h1>
+
+                <label for="date"> Date</label>
+                <input type="date">
+                <br>
+
+                <label for="time">Time</label>
+                <input type="time"> <br>
+               <input type="button" class="button" value="Reset">
+               <input type="button" class="button" value="Submit">
+
+
+
+
+
+
+
+
+            </form>
+
+
+
+        </div>
+        <div class="img">
+            <img src="/Images/Lab-Test/lab-test.jpg" alt="">
+        </div>
+
+
+    </div>
+
+</body>
+
+</html>

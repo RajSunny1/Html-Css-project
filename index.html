@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pharmacy shop </title>
+</head>
+<link rel="stylesheet" href="style.css">
+<!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">  -->
+
+<body>
+    <header>
+        <h1>Pharmacy</h1>
+    </header>
+    <div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li class="dropdown">
+                    <a href="#">Our Medicines</a>
+                    <div class="dropdown-content">
+                        <a href="#">Fever</a>
+                        <a href="#">Muscle Pains</a>
+                        <a href="#">Cold &amp; Cough</a>
+                    </div>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Health Care</a>
+                    <div class="dropdown-content">
+                        <a href="#">Baby Care</a>
+                        <a href="#">Skin Care</a>
+                        <a href="#">Home Care</a>
+                        <a href="#">Personal Care</a>
+                        <a href="#">Pet Care</a>
+                    </div>
+                </li>
+                <li><a href="/lab.html">Lab Test</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="Home">
+        <img src="/Images/Animation/ani2.png" alt="">
+    </div>
+    <div class="Products">
+        <h1>Covid Care</h1>
+        <div class="row">
+            <div class="Images">
+                <h3>Covid Test Kit</h3>
+                <img src="/Images/Products/c1.jpg" height="" alt="c1">
+                <h4 style="color: blue;">Rs.40</h4>
+                <h4 style="color: blue;">Offer:Rs.30/-</h4>
+                <button  onclick="changeBackgroundColor()"class="button">Add to Cart</button>
+            </div>
+            <div class="Images">
+                <h3>Covid Essential</h3>
+                <img src="/Images/Products/c2.jpg" alt="c2">
+                <h4 style="color: blue;">Rs.240</h4>
+                <h4 style="color: blue;">Offer:Rs.170/-</h4>
+                <button  onclick="changeBackgroundColor()"class="button">Add To Cart</button>
+            </div>
+            <div class="Images">
+                <h3>Sanitizer Bottle</h3>
+                <img src="/Images/Products/c3.jpg" alt="c3">
+                <h4 style="color: blue;">Rs.99</h4>
+                <h4 style="color: blue;">offer:Rs.87</h4>
+                <button onclick="changeBackgroundColor()" class="button">Add To Cart</button>
+
+            </div>
+            <div class="Images">
+                <h3>Mask</h3>
+                <img src="/Images/Products/c4.jpg" alt="c4">
+                <h4 style="color: blue;"> Rs.45</h4>
+                <h4 style="color: blue;">Offer:Rs.30/-</h4>
+                <button onclick="changeBackgroundColor()" class="button">Add To Cart</button>
+            </div>
+        </div>
+
+    </div>
+    <div class="products">
+        <h1>Diabetes care</h1>
+             <div class="row">
+           <div class="Images1">
+            <h3>Mask</h3>
+            <img src="/Images/Products/d1.jpg"  alt="c1">
+            <h4 style="color: blue;">Rs.45</h4>
+            <h4 style="color: blue;">Offer:Rs.30/-</h4>
+            <button  onclick="changeBackgroundColor()"class="button">Add to Cart</button>
+        </div>
+        <div class="Images1">
+            <h3>Mask</h3>
+            <img src="/Images/Products/d2.jpg"  alt="c2">
+            <h4 style="color: blue;">Rs.45</h4>
+            <h4 style="color: blue;">Offer:Rs.30/-</h4>
+            <button  onclick="changeBackgroundColor()"class="button">Add To Cart</button>
+        </div>
+        <div class="Images1">
+            <h3>Mask</h3>
+            <img src="/Images/Products/d3.jpg"  alt="c3">
+            <h4 style="color: blue;">Rs.45</h4>
+            <h4 style="color: blue;">offer:Rs.30</h4>
+            <button  onclick="changeBackgroundColor()"class="button">Add To Cart</button>
+    
+        </div>
+        <div class="Images1">
+            <h3>Mask</h3>
+            <img src="/Images/Products/d4.png"  alt="c4">
+            <h4 style="color: blue;"> Rs.45</h4>
+            <h4 style="color: blue;">Offer:Rs.30/-</h4>
+            <button  onclick="changeBackgroundColor()" class="button">Add To Cart</button>
+        </div>
+    
+      </div>
+    
+    </div>
+    <div class="footer" >
+        @Copyright only for demonstration purposes
+    </div>
+    <script>
+    // const button = document.getElementsByClassName('button');
+    // const products = document.querySelectorAll('products');
+
+    // button.addEventListener('click', () => {
+    //   document.body.style.backgroundColor = 'rgb(250, 234, 230)';
+    //   product.forEach(products => {
+    //     products.style.border = '2px solid rgb(0, 255, 76)';
+    //   });
+    // });
+    // const button =document.getElementsByClassName("button");
+    // button.addEventListener('click', ( ) => {
+    //     document.body.style.backgroundColor= "rgb(230,215,235)" ,color="red";
+        
+    // });
+    
+      function changeBackgroundColor() {
+         document.getElementsByClassName("products").style.backgroundColor = "red";
+      }
+      
+  </script>
+      
+     
+
+</body>
+
+</html>
+
+
